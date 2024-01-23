@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    .textbox {
+      padding-top: 60px;
+      background-color: #110e24;
+      padding-bottom: 40px;
+    }
+
+    input[type=text] {
+      background-color: #110e24;
+      width: 100px;
+      border: 3px solid #ccc;
+      -webkit-transition: 0.5s;
+      transition: 0.5s;
+      outline: none;
+      color: whitesmoke;
+      font-family: lato;
+      font-size: 50px;
+      text-align: center;
+      height: 50px;
+    }
+
+    input[type=button] {
+      background-color: #110e24;
+      width: 100px;
+      border: 3px solid #eb3838;
+      -webkit-transition: 0.5s;
+      transition: 0.5s;
+      outline: none;
+      color: #eb3838;
+      font-family: lato;
+      font-size: 13px;
+      text-align: center;
+      height: 27px;
+    }
+
+    input[type=button]:hover {
+      background-color: #eb3838;
+      border: 3px solid #110e24;
+      color: #110e24;
+    }
+
+    input[type=text]:focus {
+      border: 3px solid #00ffaa;
+      color: #00ffaa;
+    }
+
+    body {
+      margin: 0;
+    }
+  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>repl.it</title>
+  <link href="cell.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.6.0/lib/p5.js"></script>
+</head>
+
+<body>
+  <div class="textbox">
+    <center><input type='text' id='textboxinput' value=22 alignment='centre'></center>
+    <center><input type='button' id='buttoninput' alignment='centre' value='RANDOMIZE'></center>
+
+  </div>
+  <script src="cell.js"></script>
+</body>
+
+</html>

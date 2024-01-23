@@ -2,8 +2,8 @@ body {
     background-color: #110e24;
     max-width: 750px;
     margin: auto;
-    padding-top: 100px;
-    min-height: 200vh
+    padding-top: 50px;
+    min-height: 300vh
 }
 
 h1 {
@@ -11,11 +11,12 @@ h1 {
     letter-spacing: 3px;
     font-family: spartan;
     text-align: left;
+    margin-bottom: 50px;
     font-size: 50px;
 }
 
 h3 {
-    margin-top: 30px;
+    margin-bottom: 30px;
     color: #00ffaa;
     letter-spacing: 1.5px;
     font-family: lato;
@@ -23,12 +24,19 @@ h3 {
 }
 
 p {
-    margin-top: 60px;
+    margin-bottom: 50px;
     color: white;
     letter-spacing: 1px;
     font-family: lato;
     font-size: 15px;
 }
+
+
+iframe {
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
 
 @font-face {
     font-family: spartan;
@@ -39,3 +47,5 @@ p {
     font-family: lato;
     src: url(Lato-Regular.ttf);
 }
+
+
