@@ -1,9 +1,12 @@
 body {
-    background-color: #110e24;
     max-width: 750px;
     margin: auto;
     padding-top: 50px;
-    min-height: 300vh
+    min-height: 300vh;
+    background:
+        radial-gradient(#28234a 1px, transparent 1px), #110e24;
+    background-position: -10px -10px;
+    background-size: 30px 30px;
 }
 
 h1 {
